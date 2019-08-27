@@ -57,7 +57,12 @@
                     después de <xmp>
                         <html>
                     </xmp> y se cierra al terminar el contenido del head.</td>
-                <td>Calle falsa</td>
+                <td>
+                    <xmp>
+
+                        <head>contenido del head</head>
+                    </xmp>
+                </td>
             </tr>
             <tr>
                 <td>
@@ -68,7 +73,11 @@
                 <td>Etiqueta</td>
                 <td>Le indica al navegador el título de la página web (se ve arriba en la barra del navegador).Va dentro
                     del head</td>
-                <td>Calle</td>
+                <td>
+                    <xmp>
+                        <title> Mi primera página web</title>
+                    </xmp>
+                </td>
             </tr>
 
             <tr>
@@ -78,8 +87,27 @@
                     </xmp>
                 </td>
                 <td>Etiqueta (style type)atributo (text/css)</td>
-                <td>34</td>
-                <td>Calle falsa</td>
+                <td>Le indica al navegador el estilo de la página web en HTML. Va dentro del head. Incluye los estilos
+                    que tienen los diferentes elementos de la página web</td>
+                <td>
+                    <xmp></xmp>><style type="text/css">
+                        h1 {
+                            color: red;
+                        }
+
+                        p {
+                            color: blue;
+                        }
+
+                        .verde {
+                            color: green;
+                        }
+
+                        #titulo {
+                            color: orange;
+                        }
+                    </style>
+                </td>
             </tr>
             <tr>
                 <td>
@@ -89,8 +117,8 @@
                     </xmp>
                 </td>
                 <td>Etiqueta</td>
-                <td>34</td>
-                <td>Calle falsa</td>
+                <td>Encierra el contenido de la página web que ve el usuario.</td>
+                <td><xmp><body><h1>Título</h1><p>Contenido que tendrá el párrafo.</p></body></xmp></td>
             </tr>
 
         </tbody>
