@@ -1,0 +1,13 @@
+
+
+table, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+}
+
+th {
+    text-align: center;
+    background-color: aquamarine;
+}
+
